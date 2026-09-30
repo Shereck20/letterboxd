@@ -1,0 +1,16 @@
+{
+  "name": "letterboxd-backend",
+  "version": "1.0.0",
+  "description": "Backend Node.js + Express para um site de avaliacao de filmes e series",
+  "main": "src/server/server.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "node --watch src/server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
